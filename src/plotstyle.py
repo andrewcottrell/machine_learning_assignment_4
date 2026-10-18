@@ -1,4 +1,3 @@
-"""One figure style for the report: paper font, column width, no titles."""
 import matplotlib
 
 matplotlib.use("Agg")
@@ -54,7 +53,6 @@ def apply():
 
 
 def figure(height, width=COLUMN, **kwargs):
-    """A figure of one column width unless told otherwise."""
     return plt.subplots(figsize=(width, height), **kwargs)
 
 
