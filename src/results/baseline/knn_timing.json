@@ -1,0 +1,8 @@
+{
+  "fit_seconds": 0.34995930300010514,
+  "predict_seconds": 24.408873575999678,
+  "n_train": 206138,
+  "n_test": 51535,
+  "rows_per_second": 2111.3223369173584,
+  "n_jobs": 1
+}

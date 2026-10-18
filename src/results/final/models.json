@@ -1,0 +1,20 @@
+{
+  "tree": {
+    "criterion": "entropy",
+    "max_depth": 25,
+    "min_samples_leaf": 5,
+    "class_weight": null
+  },
+  "forest": {
+    "n_trees": 20,
+    "max_features": 14,
+    "bootstrap": "none",
+    "max_depth": 25,
+    "min_samples_leaf": 1,
+    "criterion": "entropy",
+    "class_weight": null,
+    "class_sample_size": null
+  },
+  "resample": null,
+  "trees_grown": 500
+}

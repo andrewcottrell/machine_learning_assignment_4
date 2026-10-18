@@ -1,0 +1,40 @@
+{
+  "sweep": "0",
+  "by_macro_f1": {
+    "selected": "entropy_d25_l5_unweighted",
+    "best": "entropy_d30_l5_unweighted",
+    "best_mean": 0.5882763876835536,
+    "best_se": 0.0038749948263474034,
+    "threshold": 0.5844013928572062,
+    "selected_mean": 0.5859890963484549,
+    "params": {
+      "criterion": "entropy",
+      "max_depth": 25,
+      "min_samples_leaf": 5,
+      "class_weight": null
+    },
+    "edge": false
+  },
+  "by_accuracy": {
+    "selected": "entropy_d15_l1_unweighted",
+    "best": "entropy_d15_l1_unweighted",
+    "best_mean": 0.8215179673472148,
+    "best_se": 0.0004115986943893125,
+    "threshold": 0.8211063686528255,
+    "selected_mean": 0.8215179673472148,
+    "params": {
+      "criterion": "entropy",
+      "max_depth": 15,
+      "min_samples_leaf": 1,
+      "class_weight": null
+    },
+    "edge": false
+  },
+  "selected": {
+    "criterion": "entropy",
+    "max_depth": 25,
+    "min_samples_leaf": 5,
+    "class_weight": null
+  },
+  "measures_agree": false
+}

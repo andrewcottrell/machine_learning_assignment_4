@@ -1,0 +1,252 @@
+nohup: ignoring input
+sweep 0: 1200 of 1200 fits to run, 8 threads -> /home/acottrell/Documents/Honours/machine_learning/assignment4v2/src/results/sweep_0/scores.csv
+  1/1200 fits, 0.1 min elapsed, about 94 min left
+  60/1200 fits, 0.3 min elapsed, about 6 min left
+  120/1200 fits, 0.8 min elapsed, about 7 min left
+  180/1200 fits, 1.3 min elapsed, about 7 min left
+  240/1200 fits, 1.9 min elapsed, about 8 min left
+  300/1200 fits, 2.8 min elapsed, about 8 min left
+  360/1200 fits, 3.7 min elapsed, about 9 min left
+  420/1200 fits, 4.8 min elapsed, about 9 min left
+  480/1200 fits, 5.8 min elapsed, about 9 min left
+  540/1200 fits, 6.9 min elapsed, about 8 min left
+  600/1200 fits, 8.0 min elapsed, about 8 min left
+  660/1200 fits, 8.3 min elapsed, about 7 min left
+  720/1200 fits, 8.8 min elapsed, about 6 min left
+  780/1200 fits, 9.5 min elapsed, about 5 min left
+  840/1200 fits, 10.2 min elapsed, about 4 min left
+  900/1200 fits, 11.1 min elapsed, about 4 min left
+  960/1200 fits, 12.1 min elapsed, about 3 min left
+  1020/1200 fits, 13.2 min elapsed, about 2 min left
+  1080/1200 fits, 14.2 min elapsed, about 2 min left
+  1140/1200 fits, 15.3 min elapsed, about 1 min left
+  1200/1200 fits, 16.3 min elapsed, about 0 min left
+
+sweep 0 (best 15 by macro F1)
+                             macro_f1  macro_f1_se  accuracy  accuracy_se  train_macro_f1  mean_leaves
+entropy_d30_l5_unweighted      0.5883       0.0039    0.8129       0.0007          0.6941       7392.8
+entropy_d30_l1_unweighted      0.5875       0.0027    0.8137       0.0008          0.7683      11428.4
+entropy_d25_l5_unweighted      0.5860       0.0033    0.8166       0.0004          0.6827       6110.8
+gini_dnone_l5_unweighted       0.5857       0.0038    0.8097       0.0013          0.6933       8224.8
+gini_d30_l5_unweighted         0.5853       0.0038    0.8130       0.0011          0.6852       6954.6
+gini_d40_l5_unweighted         0.5853       0.0038    0.8102       0.0012          0.6924       8004.4
+entropy_dnone_l1_unweighted    0.5853       0.0037    0.8096       0.0008          0.7805      13687.8
+entropy_d40_l5_unweighted      0.5852       0.0030    0.8103       0.0007          0.6987       8227.2
+entropy_dnone_l5_unweighted    0.5850       0.0028    0.8094       0.0006          0.6997       8422.4
+entropy_d40_l1_unweighted      0.5850       0.0042    0.8107       0.0010          0.7788      13271.4
+entropy_d20_l1_balanced        0.5844       0.0048    0.7642       0.0045          0.6952       6302.6
+gini_d25_l5_unweighted         0.5842       0.0047    0.8156       0.0011          0.6731       5402.2
+gini_d30_l1_unweighted         0.5836       0.0053    0.8134       0.0009          0.7564      11158.2
+gini_d40_l1_unweighted         0.5834       0.0056    0.8098       0.0012          0.7746      13758.4
+entropy_d20_l2_balanced        0.5833       0.0042    0.7632       0.0043          0.6840       5699.4
+by_macro_f1 : selected entropy_d25_l5_unweighted (0.5860); best entropy_d30_l5_unweighted (0.5883, se 0.0039)
+by_accuracy : selected entropy_d15_l1_unweighted (0.8215); best entropy_d15_l1_unweighted (0.8215, se 0.0004)
+measures agree: False
+
+sweep 1: 25 of 25 fits to run, 8 threads -> /home/acottrell/Documents/Honours/machine_learning/assignment4v2/src/results/sweep_1/scores.csv
+  1/25 fits, 1.0 min elapsed, about 23 min left
+  2/25 fits, 2.0 min elapsed, about 23 min left
+  3/25 fits, 2.9 min elapsed, about 22 min left
+  4/25 fits, 3.9 min elapsed, about 21 min left
+  5/25 fits, 4.9 min elapsed, about 20 min left
+  6/25 fits, 5.9 min elapsed, about 19 min left
+  7/25 fits, 6.9 min elapsed, about 18 min left
+  8/25 fits, 7.8 min elapsed, about 17 min left
+  9/25 fits, 8.8 min elapsed, about 16 min left
+  10/25 fits, 9.8 min elapsed, about 15 min left
+  11/25 fits, 10.8 min elapsed, about 14 min left
+  12/25 fits, 11.7 min elapsed, about 13 min left
+  13/25 fits, 12.7 min elapsed, about 12 min left
+  14/25 fits, 13.7 min elapsed, about 11 min left
+  15/25 fits, 14.7 min elapsed, about 10 min left
+  16/25 fits, 15.7 min elapsed, about 9 min left
+  17/25 fits, 16.6 min elapsed, about 8 min left
+  18/25 fits, 17.6 min elapsed, about 7 min left
+  19/25 fits, 18.6 min elapsed, about 6 min left
+  20/25 fits, 19.6 min elapsed, about 5 min left
+  21/25 fits, 20.5 min elapsed, about 4 min left
+  22/25 fits, 21.5 min elapsed, about 3 min left
+  23/25 fits, 22.5 min elapsed, about 2 min left
+  24/25 fits, 23.5 min elapsed, about 1 min left
+  25/25 fits, 24.4 min elapsed, about 0 min left
+
+sweep 1
+     macro_f1  macro_f1_se  accuracy  accuracy_se  train_macro_f1  mean_leaves
+1      0.5256       0.0039    0.7934       0.0007          0.6929   14323.7954
+2      0.5129       0.0036    0.7913       0.0006          0.6897   14323.7954
+5      0.5584       0.0049    0.8153       0.0008          0.7573   14323.7954
+10     0.5675       0.0041    0.8216       0.0010          0.7716   14323.7954
+20     0.5736       0.0048    0.8255       0.0011          0.7783   14323.7954
+50     0.5769       0.0038    0.8279       0.0010          0.7803   14323.7954
+100    0.5767       0.0033    0.8285       0.0010          0.7805   14323.7954
+200    0.5765       0.0036    0.8289       0.0011          0.7805   14323.7954
+300    0.5757       0.0036    0.8291       0.0010          0.7805   14323.7954
+400    0.5758       0.0036    0.8290       0.0010          0.7805   14323.7954
+500    0.5752       0.0037    0.8290       0.0010          0.7806   14323.7954
+by_macro_f1 : selected 20 (0.5736); best 50 (0.5769, se 0.0038)
+by_accuracy : selected 100 (0.8285); best 300 (0.8291, se 0.0010)
+measures agree: False
+
+sweep 2: 350 of 350 fits to run, 8 threads -> /home/acottrell/Documents/Honours/machine_learning/assignment4v2/src/results/sweep_2/scores.csv
+  1/350 fits, 0.0 min elapsed, about 6 min left
+  17/350 fits, 0.3 min elapsed, about 5 min left
+  34/350 fits, 0.6 min elapsed, about 6 min left
+  51/350 fits, 1.1 min elapsed, about 6 min left
+  68/350 fits, 1.8 min elapsed, about 7 min left
+  85/350 fits, 2.7 min elapsed, about 8 min left
+  102/350 fits, 3.8 min elapsed, about 9 min left
+  119/350 fits, 5.2 min elapsed, about 10 min left
+  136/350 fits, 7.1 min elapsed, about 11 min left
+  153/350 fits, 9.5 min elapsed, about 12 min left
+  170/350 fits, 13.4 min elapsed, about 14 min left
+  187/350 fits, 14.8 min elapsed, about 13 min left
+  204/350 fits, 15.3 min elapsed, about 11 min left
+  221/350 fits, 15.9 min elapsed, about 9 min left
+  238/350 fits, 16.9 min elapsed, about 8 min left
+  255/350 fits, 18.1 min elapsed, about 7 min left
+  272/350 fits, 19.7 min elapsed, about 6 min left
+  289/350 fits, 21.8 min elapsed, about 5 min left
+  306/350 fits, 24.3 min elapsed, about 3 min left
+  323/350 fits, 27.5 min elapsed, about 2 min left
+  340/350 fits, 33.2 min elapsed, about 1 min left
+  350/350 fits, 36.8 min elapsed, about 0 min left
+
+sweep 2
+              macro_f1  macro_f1_se  accuracy  accuracy_se  train_macro_f1  mean_leaves
+f10_none        0.6029       0.0043    0.8293       0.0010          0.7806    17537.600
+f10_standard    0.5955       0.0039    0.8277       0.0010          0.7782    12676.040
+f14_none        0.6125       0.0046    0.8300       0.0011          0.7806    16301.474
+f14_standard    0.6037       0.0044    0.8286       0.0009          0.7782    11844.646
+f1_none         0.5383       0.0025    0.8179       0.0011          0.7806    28525.148
+f1_standard     0.5288       0.0020    0.8162       0.0009          0.7781    20072.874
+f21_none        0.6159       0.0037    0.8304       0.0009          0.7806    15116.394
+f21_standard    0.6090       0.0046    0.8293       0.0009          0.7783    11041.740
+f3_none         0.5598       0.0037    0.8232       0.0010          0.7806    24083.650
+f3_standard     0.5530       0.0025    0.8217       0.0010          0.7780    17069.724
+f42_none        0.5841       0.0031    0.8110       0.0010          0.7805    13686.690
+f42_standard    0.6085       0.0037    0.8285       0.0009          0.7777    10126.354
+f6_none         0.5841       0.0041    0.8271       0.0010          0.7806    19987.998
+f6_standard     0.5736       0.0048    0.8255       0.0011          0.7783    14324.466
+by_macro_f1 : selected f14_none (0.6125); best f21_none (0.6159, se 0.0037)
+by_accuracy : selected f14_none (0.8300); best f21_none (0.8304, se 0.0009)
+measures agree: True
+
+sweep 3a: 250 of 250 fits to run, 8 threads -> /home/acottrell/Documents/Honours/machine_learning/assignment4v2/src/results/sweep_3a/scores.csv
+  1/250 fits, 0.0 min elapsed, about 9 min left
+  12/250 fits, 0.4 min elapsed, about 9 min left
+  24/250 fits, 0.9 min elapsed, about 8 min left
+  36/250 fits, 1.5 min elapsed, about 9 min left
+  48/250 fits, 2.2 min elapsed, about 9 min left
+  60/250 fits, 3.0 min elapsed, about 10 min left
+  72/250 fits, 3.9 min elapsed, about 10 min left
+  84/250 fits, 4.8 min elapsed, about 10 min left
+  96/250 fits, 5.8 min elapsed, about 9 min left
+  108/250 fits, 6.9 min elapsed, about 9 min left
+  120/250 fits, 8.1 min elapsed, about 9 min left
+  132/250 fits, 9.4 min elapsed, about 8 min left
+  144/250 fits, 10.8 min elapsed, about 8 min left
+  156/250 fits, 12.2 min elapsed, about 7 min left
+  168/250 fits, 13.7 min elapsed, about 7 min left
+  180/250 fits, 15.2 min elapsed, about 6 min left
+  192/250 fits, 16.7 min elapsed, about 5 min left
+  204/250 fits, 18.2 min elapsed, about 4 min left
+  216/250 fits, 19.8 min elapsed, about 3 min left
+  228/250 fits, 21.3 min elapsed, about 2 min left
+  240/250 fits, 22.8 min elapsed, about 1 min left
+  250/250 fits, 24.1 min elapsed, about 0 min left
+
+sweep 3a
+       macro_f1  macro_f1_se  accuracy  accuracy_se  train_macro_f1  mean_leaves
+d10      0.4936       0.0031    0.8120       0.0010          0.5044      332.992
+d12      0.5292       0.0051    0.8199       0.0008          0.5492      848.838
+d15      0.5818       0.0047    0.8283       0.0007          0.6319     2572.154
+d20      0.5975       0.0044    0.8320       0.0009          0.7260     7426.458
+d25      0.6102       0.0045    0.8315       0.0010          0.7614    11700.436
+d30      0.6108       0.0040    0.8309       0.0011          0.7769    14364.416
+d40      0.6100       0.0034    0.8300       0.0010          0.7806    16093.672
+d5       0.3193       0.0019    0.7601       0.0012          0.3196       26.370
+d8       0.4268       0.0018    0.7994       0.0013          0.4299      127.082
+dnone    0.6125       0.0046    0.8300       0.0011          0.7806    16301.474
+by_macro_f1 : selected d25 (0.6102); best dnone (0.6125, se 0.0046)
+by_accuracy : selected d20 (0.8320); best d20 (0.8320, se 0.0009)
+measures agree: False
+
+sweep 3b: 150 of 150 fits to run, 8 threads -> /home/acottrell/Documents/Honours/machine_learning/assignment4v2/src/results/sweep_3b/scores.csv
+  1/150 fits, 0.1 min elapsed, about 18 min left
+  7/150 fits, 0.9 min elapsed, about 18 min left
+  14/150 fits, 1.7 min elapsed, about 17 min left
+  21/150 fits, 2.6 min elapsed, about 16 min left
+  28/150 fits, 3.5 min elapsed, about 15 min left
+  35/150 fits, 4.3 min elapsed, about 14 min left
+  42/150 fits, 5.2 min elapsed, about 13 min left
+  49/150 fits, 6.0 min elapsed, about 12 min left
+  56/150 fits, 6.9 min elapsed, about 12 min left
+  63/150 fits, 7.7 min elapsed, about 11 min left
+  70/150 fits, 8.6 min elapsed, about 10 min left
+  77/150 fits, 9.4 min elapsed, about 9 min left
+  84/150 fits, 10.2 min elapsed, about 8 min left
+  91/150 fits, 11.0 min elapsed, about 7 min left
+  98/150 fits, 11.8 min elapsed, about 6 min left
+  105/150 fits, 12.6 min elapsed, about 5 min left
+  112/150 fits, 13.4 min elapsed, about 5 min left
+  119/150 fits, 14.2 min elapsed, about 4 min left
+  126/150 fits, 15.0 min elapsed, about 3 min left
+  133/150 fits, 15.7 min elapsed, about 2 min left
+  140/150 fits, 16.4 min elapsed, about 1 min left
+  147/150 fits, 17.2 min elapsed, about 0 min left
+  150/150 fits, 17.5 min elapsed, about 0 min left
+
+sweep 3b
+     macro_f1  macro_f1_se  accuracy  accuracy_se  train_macro_f1  mean_leaves
+l1     0.6102       0.0045    0.8315       0.0010          0.7614    11700.436
+l10    0.5890       0.0035    0.8275       0.0011          0.6636     5078.236
+l2     0.5970       0.0038    0.8299       0.0009          0.7474    10218.378
+l20    0.5792       0.0035    0.8271       0.0012          0.6213     2975.124
+l5     0.6002       0.0037    0.8294       0.0010          0.7112     7204.130
+l50    0.5415       0.0061    0.8238       0.0010          0.5607     1433.302
+by_macro_f1 : selected l1 (0.6102); best l1 (0.6102, se 0.0045)
+by_accuracy : selected l1 (0.8315); best l1 (0.8315, se 0.0010)
+measures agree: True
+
+sweep 4: 275 of 275 fits to run, 8 threads -> /home/acottrell/Documents/Honours/machine_learning/assignment4v2/src/results/sweep_4/scores.csv
+  1/275 fits, 0.1 min elapsed, about 33 min left
+  13/275 fits, 1.6 min elapsed, about 32 min left
+  26/275 fits, 3.2 min elapsed, about 31 min left
+  39/275 fits, 4.9 min elapsed, about 29 min left
+  52/275 fits, 6.3 min elapsed, about 27 min left
+  65/275 fits, 6.3 min elapsed, about 20 min left
+  78/275 fits, 6.3 min elapsed, about 16 min left
+  91/275 fits, 6.4 min elapsed, about 13 min left
+  104/275 fits, 6.4 min elapsed, about 11 min left
+  117/275 fits, 6.5 min elapsed, about 9 min left
+  130/275 fits, 6.7 min elapsed, about 7 min left
+  143/275 fits, 6.9 min elapsed, about 6 min left
+  156/275 fits, 7.1 min elapsed, about 5 min left
+  169/275 fits, 7.4 min elapsed, about 5 min left
+  182/275 fits, 8.7 min elapsed, about 4 min left
+  195/275 fits, 10.6 min elapsed, about 4 min left
+  208/275 fits, 13.9 min elapsed, about 4 min left
+  221/275 fits, 17.3 min elapsed, about 4 min left
+  234/275 fits, 28.1 min elapsed, about 5 min left
+  247/275 fits, 29.6 min elapsed, about 3 min left
+  260/275 fits, 52.0 min elapsed, about 3 min left
+  273/275 fits, 54.8 min elapsed, about 0 min left
+  275/275 fits, 55.2 min elapsed, about 0 min left
+
+sweep 4
+                   macro_f1  macro_f1_se  accuracy  accuracy_se  train_macro_f1  mean_leaves
+balanced_1000        0.5342       0.0012    0.7362       0.0010          0.5661     1909.550
+balanced_2500        0.5579       0.0015    0.7466       0.0010          0.6067     3047.032
+balanced_500         0.5140       0.0008    0.7301       0.0010          0.5371     1241.908
+balanced_5000        0.5735       0.0026    0.7547       0.0013          0.6441     4227.292
+balanced_min         0.4825       0.0006    0.7145       0.0007          0.4928      465.574
+class_weights        0.5880       0.0033    0.7795       0.0014          0.7356    12462.916
+none                 0.6102       0.0045    0.8315       0.0010          0.7614    11700.436
+smote_20000          0.5985       0.0033    0.8225       0.0010          0.8852    19147.900
+smote_5000           0.6051       0.0052    0.8317       0.0009          0.8487    13499.850
+smote_tomek_20000    0.5613       0.0027    0.7833       0.0009          0.9821    13836.114
+smote_tomek_5000     0.5711       0.0034    0.7839       0.0009          0.9792     9566.136
+by_macro_f1 : selected none (0.6102); best none (0.6102, se 0.0045)
+by_accuracy : selected none (0.8315); best smote_5000 (0.8317, se 0.0009)
+measures agree: True
+

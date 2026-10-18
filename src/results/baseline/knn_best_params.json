@@ -1,0 +1,6 @@
+{
+  "knn__metric": "manhattan",
+  "knn__n_neighbors": "1",
+  "knn__weights": "uniform",
+  "prep__num__scale": "StandardScaler()"
+}

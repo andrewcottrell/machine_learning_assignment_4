@@ -1,0 +1,31 @@
+{
+  "sweep": "3b",
+  "by_macro_f1": {
+    "selected": "l1",
+    "best": "l1",
+    "best_mean": 0.6102440598938786,
+    "best_se": 0.004518425462481682,
+    "threshold": 0.6057256344313969,
+    "selected_mean": 0.6102440598938786,
+    "params": {
+      "min_samples_leaf": 1
+    },
+    "edge": false
+  },
+  "by_accuracy": {
+    "selected": "l1",
+    "best": "l1",
+    "best_mean": 0.8314972800353025,
+    "best_se": 0.0009537431823775462,
+    "threshold": 0.830543536852925,
+    "selected_mean": 0.8314972800353025,
+    "params": {
+      "min_samples_leaf": 1
+    },
+    "edge": false
+  },
+  "selected": {
+    "min_samples_leaf": 1
+  },
+  "measures_agree": true
+}

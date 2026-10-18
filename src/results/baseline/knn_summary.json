@@ -1,0 +1,18 @@
+{
+  "model": "k-nearest neighbours",
+  "best_params": {
+    "knn__metric": "manhattan",
+    "knn__n_neighbors": "1",
+    "knn__weights": "uniform",
+    "prep__num__scale": "StandardScaler()"
+  },
+  "subsample_macro_f1": 0.4766819775382891,
+  "macro_f1_mean": 0.5009822845822216,
+  "macro_f1_std": 0.00254912157366424,
+  "weighted_f1_mean": 0.7746739956564723,
+  "accuracy_mean": 0.7716795987735077,
+  "balanced_acc_mean": 0.5096541307789535,
+  "n_features_in": 32,
+  "n_columns_out": 47,
+  "random_state": 67
+}

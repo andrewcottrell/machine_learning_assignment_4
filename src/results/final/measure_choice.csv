@@ -1,0 +1,7 @@
+sweep,by_macro_f1,by_accuracy,agree
+0,entropy_d25_l5_unweighted,entropy_d15_l1_unweighted,False
+1,20,100,False
+2,f14_none,f14_none,True
+3a,d25,d20,False
+3b,l1,l1,True
+4,none,none,True

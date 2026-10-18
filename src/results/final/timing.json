@@ -1,0 +1,16 @@
+{
+  "n_train": 206138,
+  "n_valid": 51535,
+  "threads": "all",
+  "tree": {
+    "fit_s": 3.681091028964147,
+    "predict_s": 0.0037397260311990976,
+    "rows_per_second": 13780421.231411953
+  },
+  "forest": {
+    "fit_s": 7.072579903062433,
+    "predict_s": 0.019570627016946673,
+    "rows_per_second": 2633283.029479567
+  },
+  "note": "fold 0, original training records"
+}

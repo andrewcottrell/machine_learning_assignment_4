@@ -1,0 +1,31 @@
+{
+  "sweep": "3a",
+  "by_macro_f1": {
+    "selected": "d25",
+    "best": "dnone",
+    "best_mean": 0.612450277580552,
+    "best_se": 0.0046126176486663735,
+    "threshold": 0.6078376599318857,
+    "selected_mean": 0.6102440598938786,
+    "params": {
+      "max_depth": 25
+    },
+    "edge": false
+  },
+  "by_accuracy": {
+    "selected": "d20",
+    "best": "d20",
+    "best_mean": 0.8320204195889118,
+    "best_se": 0.0009440936076244699,
+    "threshold": 0.8310763259812873,
+    "selected_mean": 0.8320204195889118,
+    "params": {
+      "max_depth": 20
+    },
+    "edge": false
+  },
+  "selected": {
+    "max_depth": 25
+  },
+  "measures_agree": false
+}
